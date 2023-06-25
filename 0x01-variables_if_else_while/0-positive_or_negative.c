@@ -9,8 +9,7 @@
  * it is executed.
  *
  * Return: Always 0 (Success)
-<<<<<<< HEAD
-
+ */
 int main(void)
 {
 
@@ -26,22 +25,3 @@ int main(void)
 	printf("%d is positive\n", n);
 	return (0);
 }
-
-=======
-*/
-int main(void)
-{
-
-	int m;
-
-	srand(time(0));
-	m = rand() - RAND_MAX / 2;
-	if (m == 0)
-	printf("%d is zero\n", m);
-	else if (m < 0)
-	printf("%d is negative\n", m);
-	else
-	printf("%d is positive\n", m);
-	return (0);
-}
->>>>>>> refs/remotes/origin/master
